@@ -3,7 +3,7 @@ function getAllDirectors(movies) {
   let directors = movies.map((value) => value.director);
   console.log('EXERCICE 1 ->', directors);
   return directors;
-}
+} 
 
 // Exercise 2: Get the films of a certain director
 function getMoviesFromDirector(movies, director) {
